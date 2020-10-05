@@ -1,0 +1,21 @@
+{
+  "name": "solidity-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-account": "node ./src/create-account",
+    "storage:compile": "node ./src/storage-compile",
+    "storage:deploy": "node ./src/storage-deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20",
+    "solc": "^0.7.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.0"
+  }
+}
